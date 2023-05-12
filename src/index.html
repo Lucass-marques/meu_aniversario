@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário do Lucas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/style.scss">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/aniversario.png" alt="Aniversário">
+            <p class="hero__text">
+                O meu aniversário acontecerá em <span id="contador"></span>. 
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Ângelo Testa, nº315 - Uberlândia/MG
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Contribuição</b>
+                        Levar carne e Refri 2L
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data</b>
+                        26/11/2005 após a EBD
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Vou participar</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--about">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o local</h2>
+                <p class="event__details__description">Ceis tudo já sabe onde é. Nem vou perder meu tempo explicando.</p>
+            </div>
+            <img src="./images/bolo.png" alt="Bolo de aniversario" class="event__image">
+        </div>
+    </section>
+    <section class="event event--food event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Comida</h2>
+                <p class="event__details__description">É o famoso Kit Crente, leva um tantin bão de carne, e um tantin bão de reft também e tá tudo certo.</p>
+            </div>
+            <img src="./images/churrasco.png" alt="Bolo de aniversario" class="event__image">
+        </div>
+    </section>
+    <section class="event event--data">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data</h2>
+                <p class="event__details__description">Meu aniversário é dia 26/11, esse ano deu bem no domingo, então deu bão demais.</p>
+            </div>
+            <img src="./images/calendario.png" alt="Bolo de aniversario" class="event__image">
+        </div>
+    </section>
+    <section class="event event--gift event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Presente</h2>
+                <p class="event__details__description">Um abraço já ta passando de bão. Obrigado.</p>
+            </div>
+            <img src="./images/presente.png" alt="Bolo de aniversario" class="event__image">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
