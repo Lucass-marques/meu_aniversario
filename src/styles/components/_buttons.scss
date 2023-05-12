@@ -8,9 +8,13 @@
     text-align: center;
     white-space: nowrap;
 
+    &:hover {
+        background-color: lighten(variables.$yellow, 8);
+    }
+
     &--primary {
         color: variables.$textColor;
         background-color: variables.$yellow;
-
+        
     }
 }
